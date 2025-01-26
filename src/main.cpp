@@ -13,9 +13,9 @@ TaskHandle_t ntpSyncHandle;
 TaskHandle_t powerSaverHandle;
 
 // Var
-int WDT_TIMEOUT = 20;         // seconds
-int DEEP_SLEEP_DURATION = 30; // seconds
-int DEEP_SLEEP_AFTER = 80;    // seconds
+int WDT_TIMEOUT = 20;          // seconds
+int DEEP_SLEEP_DURATION = 600; // seconds
+int DEEP_SLEEP_AFTER = 600;    // seconds
 int CPU_FREQUENCY = 80;
 long TIMEZONE = 25200; // UTC+7 (BKK)
 int DLS_OFFSET = 0;    // no dls
